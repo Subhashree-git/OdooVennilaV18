@@ -25,8 +25,10 @@ public class CRM {
 	        driver = new ChromeDriver(options);
 	        driver.manage().window().maximize();
 	        driver.get("https://ppts3.odoo.com/odoo");
+	        
 	     // Print a message
 	        System.out.println("Odoo Runbot v18 Opened");
+	        System.out.println("test git");
 	    
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
       //signin
