@@ -28,8 +28,7 @@ public class CRM {
 	        
 	     // Print a message
 	        System.out.println("Odoo Runbot v18 Opened");
-	        System.out.println("test git");
-	    
+	       	    
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
       //signin
    //   WebElement login = driver.findElement(By.xpath("//*[@id=\"o_main_nav\"]/ul[2]/li[7]/a"));
